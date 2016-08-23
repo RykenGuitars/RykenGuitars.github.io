@@ -7,6 +7,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="Ryken.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+	<script src="http://malsup.github.io/jquery.cycle2.center.js"></script>
 	<!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
 	<![endif]-->
@@ -15,20 +18,12 @@
 
 <body>
 <div id="wrapper">
-	<h1><!--Social Media Banner-->
-		<a href="http://www.facebook.com"><img src="fb_thumbnail.jpg" alt="FaceBook"></a>
-		<a href="http://www.twitter.com"><img src="twit_thumbnail.jpg" alt="Twitter" height="125" width="125"></a>
-		<a href="http://www.instagram.com"><img src="inst_thumbnail.jpg" alt="Instagram"></a>
-		<a href="http://www.youtube.com"><img src="yt_thumbnail.png" alt="YouTube"></a>
-		<a href="http://www.pinterest.com"><img src="pin_thumbnail.jpg" alt="Pinterest"></a>
-		<a href="http://plus.google.com"><img src="gp_thumbnail.png" alt="Google Plus"></a>
-	</h1>
 	
 	<h2><!--Logo-->
-		<img src="rykenlogo.svg" alt="rykenlogo.svg">
+		<img src="rykenlogo1.svg" alt="rykenlogo.svg">
 	</h2>
-
 	<nav>
+		
 		<ul>
 			<li><a href="design.html">DESIGN</a></li>
 			<li><a href="tone.html">TONE</a></li>
@@ -38,15 +33,76 @@
 	</nav>
 	
 	<main>
-		<div class="slider">
-		</div>
+		<div class="bar"></div>
+		<div class="cycle-slideshow" 
+				data-cycle-center-horz=true
+				data-cycle-center-vert=true
+				>
+			<img src="compas1front.png" alt="COMPASS">
+			<img src="compas2front.png" alt="COMPASS">
+			<img src="compas3bridge.png" alt="COMPASS">
+			<img src="compas3front.png" alt="COMPASS">
+			<img src="compas3head.png" alt="COMPASS">
+		</div>	
+		<br>
 		<div class="attractions">
-		
+			<!--Latest Video-->
+			<figure>
+				<img src="blankimg.gif" alt="blankimg.gif">
+				<figcaption>LATEST VIDEO</figcaption>
+			</figure>
+			<!--News-->
+			<figure>
+				<img src="blankimg.gif" alt="blankimg.gif">
+				<figcaption>NEWS</figcaption>
+			</figure>
+			<!--Gallery-->
+			<figure>
+				<img src="blankimg.gif" alt="blankimg.gif">
+				<figcaption>GALLERY</figcaption>
+			</figure>	
+			
 		</div>
+		<h1><!--Social Media Banner-->
+		<a href="http://www.facebook.com"><img src="fb_thumbnail.jpg" alt="FaceBook"></a>
+		<a href="http://www.twitter.com"><img src="twit_thumbnail.jpg" alt="Twitter" height="125" width="125"></a>
+		<a href="http://www.instagram.com"><img src="inst_thumbnail.jpg" alt="Instagram"></a>
+		<a href="http://www.youtube.com"><img src="yt_thumbnail.png" alt="YouTube"></a>
+		<a href="http://www.pinterest.com"><img src="pin_thumbnail.jpg" alt="Pinterest"></a>
+		<a href="http://plus.google.com"><img src="gp_thumbnail.png" alt="Google Plus"></a>
+		</h1>
 	</main>
-	
 	<footer>
-	
+		<figure>
+			<h3>SITE MAP</h3>
+			<ul>
+				<li><a href="blankpage.html">Here</a></li>
+				<li><a href="blankpage.html">There</a></li>
+				<li><a href="blankpage.html">Someplace</a></li>
+				<li><a href="https://www.xnxx.com">This one is porn</a></li>
+				<li><a href="https://www.youtube.com/watch?v=tntOCGkgt98">Cat video</a></li>
+			</ul>
+		</figure>
+		<figure>
+			<h3>FAQ's</h3>
+			<ul>
+				<li><a href="blankpage.html">How to cut a watermelon?</a></li>
+				<li><a href="blankpage.html">Why are babys so ugly?</a></li>
+				<li><a href="blankpage.html">Who keeps shitting in my pants?</a></li>
+				<li><a href="blankpage.html">Whats the meaning of life?</a></li>
+				<li><a href="blankpage.html">Who's my real dad?</a></li>
+			</ul>
+		</figure><figure>
+			<h3>CONTACT</h3>
+			<ul>
+				<li><a href="blankpage.html">Factory Address</a></li>
+				<li><a href="blankpage.html">Ryan Whitehurst</a></li>
+				<li><a href="blankpage.html">Kenneth The Beard Master</a></li>
+				<li><a href="blankpage.html">Shop phone number</a></li>
+				<li><a href="blankpage.html">Support Email</a></li>
+			</ul>
+		</figure><br>
+		<p>Ryken Guitars owns this shit with &#169. And &#153 all their other shit.</p>
 	</footer>
 </div>
 </body>
