@@ -216,10 +216,10 @@ footer ul {
 @media only screen and (max-width: 37.5em){
 	#wrapper {
 	font-size: 120%;
-	width:37em;
+	width:100%;
 	}
 	.slideShow{
-		width: 37em;
+		width: 100%;
 	}
 	.slideShow img{
 		width: 100%;
@@ -228,37 +228,32 @@ footer ul {
 		width: 100%;
 	}
 	.attractions {
-		height: 5em;
+		height: 100%;
 	}
 	.attractions img{
-		width: 3em;
-		height: 3em;
+		width: 100%;
+		height: 100%;
 	}
 	.bar {
-		height: 2em;
+		height: 100%;
 	}	
 	nav { font-weight: bold; 
-	  height: 5em;
-	  line-height: 2.5em;
+	  height: 100%;
+	  line-height: 100%;
 	}
 	nav ul { 
-		font-size: 4em;
+		font-size: 120%;
 	}
 	h1 img {
-		width: 37em;
+		width: 100%;
 	}
 	h2 {
-		width: 37em;
+		width: 100%;
 	}
 	h2 img{
-		width: 37em;
+		width: 100%;
 	}
-
-footer {
-	background-color: #1C1F24;
-}
-footer ul {
-	font-size: 100%;
-}
-	
+	footer ul {
+		font-size: 100%;
+	}
 }
