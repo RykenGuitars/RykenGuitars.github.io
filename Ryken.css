@@ -214,28 +214,35 @@ footer ul {
 }
 
 @media only screen and (max-width: 37.5em){
-#wrapper {
+	#wrapper {
 	font-size: 120%;
-}
-.slideShow{
-	position: relative;
-	width: 37em;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-}
-.slideShow img{
-	width: 100%;
-}
-.slideShow figure{
-	position: absolute;
-	width: 100%;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
-	margin-left: auto;
-	margin-right: auto;
-}
-	
+	width:37em;
+	}
+	.slideShow{
+		width: 37em;
+	}
+	.slideShow img{
+		width: 100%;
+	}
+	.slideShow figure{
+		width: 100%;
+	}
+	.attractions {
+		height: 5em;
+	}
+	.attractions img{
+		width: 3em;
+		height: 3em;
+	}
+	.bar {
+		height: 2em;
+	}	
+	nav { font-weight: bold; 
+	  height: 5em;
+	  line-height: 2.5em;
+	}
+	nav ul { 
+		font-size: 4em;
+	}
 	
 }
