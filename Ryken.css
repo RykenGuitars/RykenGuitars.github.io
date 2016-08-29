@@ -214,7 +214,28 @@ footer ul {
 }
 
 @media only screen and (max-width: 37.5em){
-	
+#wrapper {
+	font-size: 120%;
+}
+.slideShow{
+	position: relative;
+	width: 37em;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.slideShow img{
+	width: 100%;
+}
+.slideShow figure{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+}
 	
 	
 }
