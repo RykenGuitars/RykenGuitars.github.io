@@ -216,22 +216,22 @@ footer ul {
 @media only screen and (max-width: 37.5em){
 	#wrapper {
 	font-size: 120%;
-	width: 37em;
 	}
 	.slideShow{
-		width: 37em;
-		height: 23.5em;
+		width: 20em;
+		height: 12.7em;
 	}
 	.slideShow img{
-		width: 37em;
-		height: 23.5em;
+		width: 20em;
+		height: 12.7em;
 	}
 	.slideShow figure{
-		width: 37em;
-		height: 23.5em;
+		width: 20em;
+		height: 12.7em;
 	}
 	.attractions {
 		height: 100%;
+		margin-bottom: 3em;
 	}
 	.attractions img{
 		width: 100%;
