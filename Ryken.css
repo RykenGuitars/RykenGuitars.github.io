@@ -216,7 +216,7 @@ footer ul {
 @media only screen and (max-width: 37.5em){
 	#wrapper {
 	font-size: 120%;
-	width:100%;
+	width: 37em;
 	}
 	.slideShow{
 		width: 37em;
