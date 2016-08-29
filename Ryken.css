@@ -25,9 +25,13 @@ main {
 	height: 700px;
 }
 .slideShow figure{
-	margin: 0 auto;
 	position: absolute;
-	padding-left: 3em;
+	width: 1100px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 .slideShow figure:nth-child(1) {
 	animation: xfade 30s 24s infinite;
