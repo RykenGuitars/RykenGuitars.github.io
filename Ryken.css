@@ -27,6 +27,7 @@ main {
 .slideShow figure{
 	margin: 0 auto;
 	position: absolute;
+	padding-left: 3em;
 }
 .slideShow figure:nth-child(1) {
 	animation: xfade 30s 24s infinite;
